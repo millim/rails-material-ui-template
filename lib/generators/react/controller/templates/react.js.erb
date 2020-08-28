@@ -1,0 +1,9 @@
+import React from 'react'
+import Dashboard from "<%= dashboard_path %>layout/Dashboard";
+export default function <%= @view.camelcase %>() {
+  return (
+    <Dashboard>
+      "<%= in_path(@view.camelcase) %>"
+    </Dashboard>
+  )
+}

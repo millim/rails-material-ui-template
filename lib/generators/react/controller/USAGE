@@ -1,0 +1,10 @@
+Description:
+    Create react controller and js
+
+Example:
+    rails generate react:controller Name ViewName1,ViewName2
+
+    This will create:
+        controllers/NameController.rb
+        javascript/components/Name/ViewName1.js
+        javascript/components/Name/ViewName2.js
