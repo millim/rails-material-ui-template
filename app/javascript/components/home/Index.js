@@ -4,7 +4,7 @@ class Index extends React.Component {
   render () {
     return (
       <Dashboard>
-        home/index
+        home/index - {this.props.bookText}
       </Dashboard>
     );
   }
