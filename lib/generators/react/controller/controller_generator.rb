@@ -23,7 +23,9 @@ module React
     end
 
     def dashboard_path
-      count = File.join(class_path, file_name).split("/").count
+      file = File.join(class_path, file_name)
+      return '../' if file[0] == '/'
+      count = File.join(class_path, file_name).scan(/\//).count + 1
       s = ''
       count.times{ s += '../'}
       s
