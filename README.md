@@ -1,24 +1,17 @@
 # README
+This is Rails + React Template, use [Rails](https://github.com/rails/rails) and [Rails-React](https://github.com/reactjs/react-rails).
+Css style is [Material-UI](https://material-ui.com)!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+# Install
+```
+git clone https://github.com/millim/rails-material-ui-template.git
 
-* Ruby version
+bundle install
 
-* System dependencies
+yarn install
 
-* Configuration
+rails s
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+bin/webpack-dev-server
+```
