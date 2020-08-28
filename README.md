@@ -1,4 +1,4 @@
-#### README
+#### Info
 This is Rails + React Template, use [Rails](https://github.com/rails/rails) and [Rails-React](https://github.com/reactjs/react-rails).
 Css style is [Material-UI](https://material-ui.com)!
 
@@ -49,9 +49,9 @@ import React from 'react'
 import Application from "../layout/Application";
 export default function Index() {
   return (
-    <Dashboard>
+    <Application>
       "admin/Index"
-    </Dashboard>
+    </Application>
   )
 }
 ```
