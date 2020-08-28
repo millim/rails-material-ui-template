@@ -1,11 +1,11 @@
 import React from "react"
-import Dashboard from "../layout/Dashboard";
+import Application from "../layout/Application";
 class Index extends React.Component {
   render () {
     return (
-      <Dashboard>
+      <Application>
         home/index - {this.props.bookText}
-      </Dashboard>
+      </Application>
     );
   }
 }

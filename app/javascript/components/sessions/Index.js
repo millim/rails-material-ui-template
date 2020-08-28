@@ -1,9 +1,9 @@
 import React from 'react'
-import Dashboard from "../layout/Dashboard";
+import Application from "../layout/Application";
 export default function Index() {
   return (
-    <Dashboard>
+    <Application>
       sessions/index
-    </Dashboard>
+    </Application>
   )
 }

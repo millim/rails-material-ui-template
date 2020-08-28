@@ -100,7 +100,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Dashboard({children}) {
+export default function Application({children}) {
   const classes = useStyles();
   let state = localStorage.getItem('left-list-status');
   if (state == null){
